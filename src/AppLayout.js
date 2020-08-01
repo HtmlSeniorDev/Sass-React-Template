@@ -10,7 +10,7 @@ export default function AppLayout() {
         <div className='App'>
             <Header/>
             <Switch>
-                <Route  exact path='/' render={() => {return <Home/>}}/>
+                <Route  exact path='/' render={() => {return <Home title="Home"/>}}/>
             </Switch>
             <Footer/>
         </div>
