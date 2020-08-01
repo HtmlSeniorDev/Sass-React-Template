@@ -1,5 +1,6 @@
 import React from 'react';
-import {Helmet} from 'Helmet;'
+import { Helmet } from 'react-helmet';
+
 export default function Home(props) {
     return (
         <main className="Home">
